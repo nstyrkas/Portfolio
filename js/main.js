@@ -4,7 +4,7 @@ async function renderSystems() {
   if (!container) return;
 
   try {
-    const res = await fetch('https://github.com/nstyrkas/Portfolio/blob/main/data/systems.json');
+    const res = await fetch('data/systems.json');
     if (!res.ok) throw new Error('Failed to load systems.json');
     const modules = await res.json();
 
@@ -31,7 +31,7 @@ async function renderProjects() {
   if (!container) return;
 
   try {
-    const res = await fetch('https://github.com/nstyrkas/Portfolio/blob/main/data/projects.json');
+    const res = await fetch('data/projects.json');
     if (!res.ok) throw new Error('Failed to load projects.json');
     const projects = await res.json();
 
