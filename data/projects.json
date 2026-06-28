@@ -1,28 +1,35 @@
 [
   {
-    "title": "Production Server Build for an Industrial Control Environment",
-    "tag": "Production",
+    "title": "HCI Architecture & Implementation (Hyper-V / S2D)",
+    "tag": "Recurring",
     "status": "done",
-    "description": "Deployed Windows Server 2022 Datacenter on enterprise hardware for a DeltaV process control environment, including RAID configuration, edition conversion, offline activation, domain controller promotion, and resolving time-sync issues affecting Kerberos authentication.",
-    "stack": ["Windows Server 2022", "Active Directory", "RAID", "Kerberos"]
+    "description": "Primary recurring responsibility: serve as lead infrastructure engineer on hyper-converged infrastructure deployments built on Hyper-V with Storage Spaces Direct. Lead technical scoping during customer proposals, design system architecture, coordinate with on-site IT to configure firewall rules for backup and supporting services, and work across customer, PM, and internal teams to align networking requirements before building, testing, and maintaining each environment.",
+    "stack": ["Hyper-V", "Storage Spaces Direct (S2D)", "HCI Architecture", "Firewall Configuration", "Cross-Team Coordination"]
   },
   {
-    "title": "Active Directory Recovery After Network Migration",
-    "tag": "Production",
-    "status": "done",
-    "description": "Diagnosed a domain-wide GPO failure traced back to an orphaned policy with a missing SYSVOL folder, and resolved a cascading DNS/replication failure caused by a domain controller IP change in a live OT network.",
-    "stack": ["Active Directory", "DNS", "GPO", "Replication"]
+  "title": "On-Site OT Support, Pharmaceutical Manufacturing Client",
+  "tag": "Ongoing",
+  "status": "done",
+  "description": "Part of a contracted team providing on-site OT help desk support for a large pharmaceutical manufacturing client, resolving day-to-day support tickets across a mixed Linux and Windows OT environment at scale, with exposure to Red Hat-based infrastructure-as-code tooling.",
+  "stack": ["Linux", "Windows", "OT Support", "Ansible", "Ticketing"]
   },
   {
-    "title": "Industrial Network Redesign",
-    "tag": "Production",
+    "title": "Multi-Cluster High-Availability Upgrade for Chemical Manufacturing",
+    "tag": "Project",
     "status": "done",
-    "description": "Designed and documented VLAN segmentation across Hirschmann managed switches in a Hyper-V and DeltaV environment, including dual-VLAN trunk configuration on Hyper-V host virtual NICs.",
-    "stack": ["VLANs", "Hirschmann", "Hyper-V Networking", "Documentation"]
+    "description": "Upgraded and reworked an existing multi-cluster infrastructure for a chemical manufacturing client, reconfiguring two systems across separate clusters using Windows Failover Cluster Manager, with a third system connected to both for cross-site replication. Modernized the environment to improve operational continuity and data integrity for a non-GMP industrial setting.",
+    "stack": ["Windows Failover Cluster Manager", "Clustering", "Replication", "High Availability"]
+  },
+  {
+    "title": "R&D Lab Environment",
+    "tag": "Project",
+    "status": "Done",
+    "description": "Designed and built, from the ground up, the server and virtualization infrastructure for a mobile continuous manufacturing platform developed in partnership with an academic research institution supporting a federally funded R&D initiative. Stood up a Linux virtual machine with GPU passthrough to support onboard AI inference, working through hardware allocation and driver configuration to get GPU resources properly exposed inside the VM. Coordinated physical infrastructure, including power and network cabling, directly with the facility's lab operations manager, and worked cross-functionally with both the research partner's technical team and internal stakeholders to define virtual machine requirements, balancing research-side flexibility with the operational and security constraints of a production system.",
+    "stack": ["AI", "Hyper-V", "R&D", "Documentation" ,"GMP"]
   },
   {
     "title": "Home Lab: Automation & Orchestration Practice",
-    "tag": "In Progress",
+    "tag": "Development",
     "status": "progress",
     "description": "Built a home hyper-converged lab to get hands-on with tooling that doesn't come up in day to day OT/IT work but consistently shows up in infrastructure job requirements. Running Proxmox alongside existing Hyper-V/VMware experience, provisioning Docker workloads with Terraform, and working through Jenkins pipeline fundamentals, backed by completed coursework in each area.",
     "stack": ["Proxmox", "Terraform", "Docker", "Jenkins"]

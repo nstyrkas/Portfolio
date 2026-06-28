@@ -3,36 +3,72 @@
     "id": "MOD-01",
     "status": "active",
     "title": "Virtualization",
-    "description": "Hyper-V & VMware deployment, host configuration, virtual networking, and migration in production OT environments."
+    "description": "Hyper-V and VMware deployment, host config, and virtual networking."
   },
   {
     "id": "MOD-02",
     "status": "active",
-    "title": "Windows Server / AD",
-    "description": "Domain controller deployment, GPO, DNS/replication troubleshooting, FSMO roles, server builds from bare metal up."
+    "title": "HCI & Storage (S2D)",
+    "description": "Hyper-converged infrastructure design and implementation on Hyper-V with Storage Spaces Direct."
   },
   {
     "id": "MOD-03",
     "status": "active",
-    "title": "Networking",
-    "description": "VLAN design and documentation, switch configuration (Cisco, Hirschmann), enterprise WiFi with RADIUS/NPS."
+    "title": "Failover Clustering",
+    "description": "Multi-cluster configuration and cross-site replication with Windows Failover Cluster Manager."
   },
   {
     "id": "MOD-04",
     "status": "active",
-    "title": "Linux & Scripting",
-    "description": "Day to day Linux administration alongside Windows, with PowerShell and Bash for automation and troubleshooting."
+    "title": "Windows Server & AD",
+    "description": "Domain controller deployment, GPO, DNS/replication troubleshooting, FSMO roles."
   },
   {
     "id": "MOD-05",
-    "status": "building",
-    "title": "IaC & Containers",
-    "description": "Hands-on practice with Terraform and Docker in a home lab environment, supplemented by completed coursework."
+    "status": "active",
+    "title": "Linux Administration",
+    "description": "Day to day Linux administration alongside Windows in mixed OT/IT environments."
   },
   {
     "id": "MOD-06",
+    "status": "active",
+    "title": "Networking & VLANs",
+    "description": "VLAN design, switch configuration, and enterprise WiFi with RADIUS/NPS."
+  },
+  {
+    "id": "MOD-07",
+    "status": "active",
+    "title": "Firewall & Security Config",
+    "description": "Coordinating firewall rules with on-site IT for backups, services, and system access."
+  },
+  {
+    "id": "MOD-08",
+    "status": "active",
+    "title": "GPU Passthrough & AI Infra",
+    "description": "Configuring GPU passthrough on Linux VMs to support onboard AI inference workloads."
+  },
+  {
+    "id": "MOD-09",
+    "status": "active",
+    "title": "Scripting",
+    "description": "PowerShell and Bash for automation, troubleshooting, and day to day operations."
+  },
+  {
+    "id": "MOD-10",
+    "status": "active",
+    "title": "OT Support & Ticketing",
+    "description": "On-site help desk support for large-scale operational technology environments."
+  },
+  {
+    "id": "MOD-11",
+    "status": "building",
+    "title": "IaC & Containers",
+    "description": "Hands-on practice with Terraform and Docker, backed by completed coursework."
+  },
+  {
+    "id": "MOD-12",
     "status": "building",
     "title": "CI / CD",
-    "description": "Working through Jenkins pipeline fundamentals as part of ongoing home lab practice and structured coursework."
+    "description": "Working through Jenkins pipeline fundamentals through home lab practice."
   }
 ]
