@@ -1,0 +1,139 @@
+/* Cozy overrides for the Personal page.
+   Imports the base tokens from style.css but drops the schematic/blueprint
+   treatment in favor of something warmer: rounded cards, soft glow, no grid. */
+
+body.cozy {
+  background-image: radial-gradient(
+    circle at 20% 0%,
+    rgba(232, 163, 61, 0.07),
+    transparent 55%
+  ),
+  radial-gradient(
+    circle at 90% 30%,
+    rgba(108, 161, 191, 0.06),
+    transparent 50%
+  );
+  background-size: cover;
+  background-color: var(--bg);
+}
+
+.cozy-header {
+  padding: 80px 0 48px;
+  text-align: center;
+}
+.cozy-header .eyebrow {
+  justify-content: center;
+}
+.cozy-header h1 {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 14px;
+  letter-spacing: 0;
+}
+.cozy-header p {
+  color: var(--text-dim);
+  max-width: 480px;
+  margin: 14px auto 0;
+  font-size: 15px;
+}
+
+.cozy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cozy-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 28px;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+.cozy-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(232, 163, 61, 0.35);
+}
+
+.cozy-icon {
+  font-size: 26px;
+  margin-bottom: 14px;
+  display: inline-block;
+}
+
+.cozy-card h3 {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--text);
+  margin-bottom: 8px;
+  letter-spacing: 0;
+}
+
+.cozy-card p {
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
+.cozy-tag {
+  display: inline-block;
+  margin-top: 14px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.cozy-footer-note {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 14px;
+  margin-top: 48px;
+}
+
+/* Teaser card linking to the Personal page from the home page */
+.personal-teaser {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 24px 28px;
+  text-decoration: none;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+.personal-teaser:hover {
+  transform: translateY(-2px);
+  border-color: rgba(232, 163, 61, 0.35);
+  text-decoration: none;
+}
+.personal-teaser-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.personal-teaser-text strong {
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+}
+.personal-teaser-text span {
+  color: var(--text-dim);
+  font-size: 13px;
+}
+
+@media (max-width: 640px) {
+  .cozy-grid {
+    grid-template-columns: 1fr;
+  }
+  .cozy-header h1 {
+    font-size: 26px;
+  }
+}

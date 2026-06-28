@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Production Server Build for an Industrial Control Environment",
+    "tag": "Production",
+    "status": "done",
+    "description": "Deployed Windows Server 2022 Datacenter on enterprise hardware for a DeltaV process control environment, including RAID configuration, edition conversion, offline activation, domain controller promotion, and resolving time-sync issues affecting Kerberos authentication.",
+    "stack": ["Windows Server 2022", "Active Directory", "RAID", "Kerberos"]
+  },
+  {
+    "title": "Active Directory Recovery After Network Migration",
+    "tag": "Production",
+    "status": "done",
+    "description": "Diagnosed a domain-wide GPO failure traced back to an orphaned policy with a missing SYSVOL folder, and resolved a cascading DNS/replication failure caused by a domain controller IP change in a live OT network.",
+    "stack": ["Active Directory", "DNS", "GPO", "Replication"]
+  },
+  {
+    "title": "Industrial Network Redesign",
+    "tag": "Production",
+    "status": "done",
+    "description": "Designed and documented VLAN segmentation across Hirschmann managed switches in a Hyper-V and DeltaV environment, including dual-VLAN trunk configuration on Hyper-V host virtual NICs.",
+    "stack": ["VLANs", "Hirschmann", "Hyper-V Networking", "Documentation"]
+  },
+  {
+    "title": "Home Lab: Automation & Orchestration Practice",
+    "tag": "In Progress",
+    "status": "progress",
+    "description": "Built a home hyper-converged lab to get hands-on with tooling that doesn't come up in day to day OT/IT work but consistently shows up in infrastructure job requirements. Running Proxmox alongside existing Hyper-V/VMware experience, provisioning Docker workloads with Terraform, and working through Jenkins pipeline fundamentals, backed by completed coursework in each area.",
+    "stack": ["Proxmox", "Terraform", "Docker", "Jenkins"]
+  }
+]

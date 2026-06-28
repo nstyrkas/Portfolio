@@ -1,0 +1,38 @@
+[
+  {
+    "id": "MOD-01",
+    "status": "active",
+    "title": "Virtualization",
+    "description": "Hyper-V & VMware deployment, host configuration, virtual networking, and migration in production OT environments."
+  },
+  {
+    "id": "MOD-02",
+    "status": "active",
+    "title": "Windows Server / AD",
+    "description": "Domain controller deployment, GPO, DNS/replication troubleshooting, FSMO roles, server builds from bare metal up."
+  },
+  {
+    "id": "MOD-03",
+    "status": "active",
+    "title": "Networking",
+    "description": "VLAN design and documentation, switch configuration (Cisco, Hirschmann), enterprise WiFi with RADIUS/NPS."
+  },
+  {
+    "id": "MOD-04",
+    "status": "active",
+    "title": "Linux & Scripting",
+    "description": "Day to day Linux administration alongside Windows, with PowerShell and Bash for automation and troubleshooting."
+  },
+  {
+    "id": "MOD-05",
+    "status": "building",
+    "title": "IaC & Containers",
+    "description": "Hands-on practice with Terraform and Docker in a home lab environment, supplemented by completed coursework."
+  },
+  {
+    "id": "MOD-06",
+    "status": "building",
+    "title": "CI / CD",
+    "description": "Working through Jenkins pipeline fundamentals as part of ongoing home lab practice and structured coursework."
+  }
+]
