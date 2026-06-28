@@ -31,7 +31,7 @@
     "title": "Home Lab: Automation & Orchestration Practice",
     "tag": "Development",
     "status": "progress",
-    "description": "Built a home hyper-converged lab to get hands-on with tooling that doesn't come up in day to day OT/IT work but consistently shows up in infrastructure job requirements. Running Proxmox alongside existing Hyper-V/VMware experience, provisioning Docker workloads with Terraform, and working through Jenkins pipeline fundamentals, backed by completed coursework in each area.",
+    "description": "If you are the smartest person in the room, you are in the wrong room. One thing about me, I'm always looking to learn. In this case, I wasnt getting experience in things I believed to be valuable skills so I built a home hyper-converged lab to get hands-on with tooling that doesn't come up in day to day OT/IT work but consistently shows up in infrastructure job requirements. Running Proxmox alongside existing Hyper-V/VMware experience, provisioning Docker workloads with Terraform, and working through Jenkins pipeline fundamentals, backed by completed coursework in each area.",
     "stack": ["Proxmox", "Terraform", "Docker", "Jenkins"]
   }
 ]
